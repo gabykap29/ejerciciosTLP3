@@ -2,6 +2,9 @@ function factorial(n) {
   if (n === 0 || n === 1) {
     return 1;
   }
+  if(n===2){
+    return 2;
+  }
 
   let resultado = 0;
   let acumulador = 0;
